@@ -7,21 +7,21 @@ Kullanıcıdan kitap adı ve soru alarak, ilgili özet üzerinden cevap üretir.
 - Kullanılan Teknolojiler
 LangChain
 
-    LLM (Ollama / OpenAI / local)
+    ⭒ LLM (Ollama)
 
-    Embedding & Vektör Arama
+    ⭒ Embedding & Vektör Arama
 
-    Python
+    ⭒ Python
 
 - Nasıl Çalışır?
-    Summaries klasöründeki kitap özetleri vektörel hale getirilir.
+    ⭒ Summaries klasöründeki kitap özetleri vektörel hale getirilir.
 
-    Kullanıcıdan kitap adı ve soru alınır.
+    ⭒ Kullanıcıdan kitap adı ve soru alınır.
 
-    En alakalı metin parçası bulunur ve LLM’e verilir.
+    ⭒ En alakalı metin parçası bulunur ve LLM’e verilir.
 
-    Model, soruya metne dayalı cevap üretir.
+    ⭒ Model, soruya metne dayalı cevap üretir.
 
 - Amaç
-LangChain ve RAG yapısını küçük bir örnekle deneyimlemek.
+    ⭒ LangChain ve RAG yapısını küçük bir örnekle deneyimlemek.
 
