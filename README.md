@@ -7,7 +7,7 @@ Kullanıcıdan kitap adı ve soru alarak, ilgili özet üzerinden cevap üretir.
 - Kullanılan Teknolojiler
 LangChain
 
-    ⭒ LLM (Ollama / OpenAI / local)
+    ⭒ LLM (Ollama)
 
     ⭒ Embedding & Vektör Arama
 
