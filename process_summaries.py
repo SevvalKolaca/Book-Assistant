@@ -1,9 +1,9 @@
 from config import config
 
 import os
-from langchain.document_loaders import TextLoader
+from langchain_community.document_loaders import TextLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
-from langchain_ollama import OllamaEmbeddings
+from langchain_community.embeddings.ollama import OllamaEmbeddings
 from langchain_core.vectorstores import InMemoryVectorStore
 from langchain_core.documents import Document   
 
@@ -55,8 +55,8 @@ class Summary:
                 
             
 
-summary = Summary()
-document = summary.load_txt("C:\\Users\\yunus\\OneDrive\\Masaüstü\\Book Assistant\\Summaries\\Animal Farm.txt")
+#summary = Summary()
+#document = summary.load_txt("C:\\Users\\yunus\\OneDrive\\Masaüstü\\Book Assistant\\Summaries\\Animal Farm.txt")
 
 #print("Length:", len(document))
 #print(type(document))
@@ -66,13 +66,13 @@ document = summary.load_txt("C:\\Users\\yunus\\OneDrive\\Masaüstü\\Book Assist
 #print("Page Content", document[0].page_content)
 #print("Type: ", document[0].type)
 
-chunks = summary.chunking(document[0].page_content)
+#chunks = summary.chunking(document[0].page_content)
 
 #print("Type:", type(chunks))
 #print("Len Chunks: ", len(chunks))
 
 #print("Deneme embedding:")
-vectors = summary.embedding(chunks)
+#vectors = summary.embedding(chunks)
 
 #print(len(vectors))
 #print(vectors[0])

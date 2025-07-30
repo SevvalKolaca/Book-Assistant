@@ -13,7 +13,7 @@ input_book_name = input("Enter the book name: ").strip().lower()
 input_question = input("Enter the question: ")
 
 summaries = Summary()
-summaries.process_summaries(r"C:\Users\yunus\OneDrive\Masaüstü\Book Assistant\Summaries")
+summaries.process_summaries(r"C:\Users\sevva\Desktop\Book Assistant\Book-Assistant\Summaries")
 
 vector_store = summaries.vector_store[input_book_name]
 retriever = vector_store.as_retriever()
